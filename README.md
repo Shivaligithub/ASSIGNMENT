@@ -19,18 +19,27 @@ How to Execute the Code:
 
  
 Design Decisions and Approach:
+
 •	Trie Data Structure:
 	The program uses a trie (prefix tree) data structure to efficiently store and search words.
         This allows for quick identification of prefixes and suffixes of words, essential for finding compound words.
+
+ 
 •	Pair Class:
 	A Pair class is used to store word pairs (original word and its suffix) in the queue during processing.
         This helps in maintaining the context of the words being processed.
+
+ 
 •	Reading Input Files:
 	The program reads words from two input files (Input_01.txt and Input_02.txt).
         The read_words_from_file function reads words from a file and returns them as a list.
+
+ 
 •	Queue-based Processing:
 	Words and their suffixes are processed using a queue. Words with possible suffixes are added to the queue, and the program iteratively
         processes these pairs until no further combinations are possible.
+
+ 
  •      Output Format:
 	The program outputs the longest and second longest compound words, along with the total number of compound words found.
         The output is displayed in the console.
