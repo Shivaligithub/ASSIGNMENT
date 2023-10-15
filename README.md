@@ -14,6 +14,8 @@ How to Execute the Code:
 •	Ensure you have the input files Input_01.txt and Input_02.txt with words list (one word per line, no spaces, all lower case)
         in the same directory as the Python script.
 6.	Execute the Program:
+
+ 
 Design Decisions and Approach:
 •	Trie Data Structure:
 	The program uses a trie (prefix tree) data structure to efficiently store and search words.
