@@ -3,6 +3,8 @@ The provided Python program solves the problem of identifying the longest and se
 A compound word is a word that can be constructed by concatenating copies of shorter words found in the same list. 
 The program reads input words from two files, processes them using a trie data structure, and outputs the longest and second longest compound words,
 along with the total number of compound words.
+
+
 How to Execute the Code:
 1.	Prerequisites:
 •	Python installed on your system. You can download Python from python.org.
